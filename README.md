@@ -1,15 +1,15 @@
-** Clone me!
+**** Clone me!
 
 `git clone https://github.com/hackoregon/programmingforprogress-frontend.git`
 
-** Get me ready!
+**** Get me ready!
 
 `npm install`
 
-** Compile my Sass!
+**** Compile my Sass!
 
 `npm run sass`
 
-** Watch my Sass!
+**** Watch my Sass!
 
 `npm run watch-sass`
