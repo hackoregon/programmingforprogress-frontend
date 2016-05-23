@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-
 body {
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+
+a {
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+
+p {
   font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
 .transition {
@@ -10,7 +15,7 @@ body {
   right: 0;
   left: 0;
   height: 100vh;
-  background: red;
+  background: black;
   color: white;
   transform: translateX(-100%);
   -webkit-transform: translateX(-100%); }
