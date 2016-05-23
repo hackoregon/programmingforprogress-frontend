@@ -1,4 +1,19 @@
+<<<<<<< HEAD
+/*other comment*/
+/*commenty mccommentface*/
+
+/* controls the headline section */
+.panel .black {
+	background-color: #000000 !important;
+}
+
+/* controls text on inverted backgrounds */
+.white {
+	color: #f7f7f7;
+}
+=======
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
 body {
   font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+>>>>>>> fb7220dc926b0c39ece2e6be2d0849aaaeaef78e
