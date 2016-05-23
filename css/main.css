@@ -1,2 +1,12 @@
 /*other comment*/
 /*commenty mccommentface*/
+
+/* controls the headline section */
+.panel .black {
+	background-color: #000000 !important;
+}
+
+/* controls text on inverted backgrounds */
+.white {
+	color: #f7f7f7;
+}
