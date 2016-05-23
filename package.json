@@ -1,0 +1,38 @@
+{
+  "name": "programmingtoprogress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "chart.js": "^2.1.3",
+    "gulp": "^3.9.1",
+    "bootstrap": "^4.0.0-alpha.2",
+    "gulp-babel": "^6.1.2",
+    "gulp-batch": "^1.0.5",
+    "gulp-sequence": "^0.4.5",
+    "gulp-rm": "^1.0.1",
+    "gulp-watch": "^4.3.5",
+    "jquery": "^2.2.4",
+    "gulp-sass": "^2.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackoregon/programmingforprogress-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackoregon/programmingforprogress-frontend/issues"
+  },
+  "homepage": "https://github.com/hackoregon/programmingforprogress-frontend#readme"
+}
