@@ -1,0 +1,29 @@
+@keyframes popup {
+  0% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+.student {
+  cursor: pointer;
+}
+
+.student-1 {
+  transform: translateY(4px);
+  animation: popup 4s 0.3s ease infinite;
+}
+
+.student-2 {
+  transform: translateY(2px);
+  animation: popup 3s 0.2s ease infinite; 
+}
+
+.student-3 {
+  transform: translateY(5px);
+  animation: popup 1.5s ease infinite;
+}
