@@ -8,6 +8,9 @@ a {
 p {
   font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
+.about {
+  padding-top: 70px; }
+
 .transition {
   position: absolute;
   top: 50px;
@@ -70,3 +73,17 @@ p {
 .student-3 {
   transform: translateY(5px);
   animation: popup 1.5s ease infinite; }
+
+.footer {
+  border-color: #101010;
+  background-color: #222;
+  border-color: #080808;
+  padding: 2em 0 1em;
+  margin-top: 20px; }
+
+.footer-text {
+  color: #fff;
+  text-align: right; }
+
+.about-sections {
+  margin-bottom: 20px; }
