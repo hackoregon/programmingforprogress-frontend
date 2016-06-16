@@ -6,6 +6,7 @@ a{
         text-decoration: none;
     }
 }
+
 .st-accordion {
     width:100%;
     min-width:270px;
@@ -16,6 +17,10 @@ a{
     border-bottom: 1px solid #c7deef;
     border-top:1px solid #fff;
     overflow: hidden;
+}
+.st-accordion-ul {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .st-accordion .st-accordion-li:first-child{
     border-top:none;
