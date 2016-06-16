@@ -6,22 +6,22 @@ a{
         text-decoration: none;
     }
 }
-.st-accordion{
+.st-accordion {
     width:100%;
     min-width:270px;
     margin: 0 auto;
 }
-.st-accordion ul li{
+.st-accordion-li {
     height: 100px;
     border-bottom: 1px solid #c7deef;
     border-top:1px solid #fff;
     overflow: hidden;
 }
-.st-accordion ul li:first-child{
+.st-accordion .st-accordion-li:first-child{
     border-top:none;
 }
-.st-accordion ul li > a{
-    font-family: 'Josefin Slab',Georgia, serif;
+.st-accordion .st-accordion-li > a{
+    font-family: 'Josefin Slab', Georgia, serif;
     text-shadow: 1px 1px 1px #fff;
     font-size: 46px;
     display: block;
@@ -34,7 +34,7 @@ a{
 	  -ms-transition:  color 0.2s ease-in-out;
 	  transition:  color 0.2s ease-in-out;
 }
-.st-accordion ul li > a span{
+.st-accordion .st-accordion-li > a span{
     background: transparent url(../img/down.png) no-repeat center center;
     text-indent:-9000px;
     width: 26px;
@@ -50,17 +50,17 @@ a{
     -ms-transition:  all 0.2s ease-in-out;
     transition:  all 0.2s ease-in-out;
 }
-.st-accordion ul li > a:hover{
+.st-accordion .st-accordion-li > a:hover{
     color: #1693eb;
 }
-.st-accordion ul li > a:hover span{
+.st-accordion .st-accordion-li > a:hover span{
     opacity:1;
     right: 10px;
 }
-.st-accordion ul li.st-open > a{
+.st-accordion .st-accordion-li .st-open > a{
     color: #1693eb;
 }
-.st-accordion ul li.st-open > a span{
+.st-accordion .st-accordion-li .st-open > a span {
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
     transform:rotate(180deg);
@@ -70,20 +70,20 @@ a{
 .st-content{
     padding: 5px 0px 30px 0px;
 }
-.st-content p{
+.st-content .st-accordion-p {
     font-size:  16px;
     font-family:  Georgia, serif;
     font-style: italic;
     line-height:  28px;
     padding: 0px 4px 15px 4px; 
 }
-.st-content img{
+.st-content img {
     width:125px;
     border-right:1px solid #fff;
     border-bottom:1px solid #fff;
 }
 @media screen and (max-width: 320px){
-	.st-accordion ul li > a{
+	.st-accordion .st-accordion-li > a{
 		font-size:36px;
 	}
 }
