@@ -6,7 +6,6 @@ a{
         text-decoration: none;
     }
 }
-
 .st-accordion {
     width:100%;
     min-width:270px;
@@ -76,7 +75,7 @@ a{
     padding-bottom: 30px;
 }
 .st-content .st-accordion-p {
-    font-size:  16px;
+    font-size:  18px;
     font-family:  Georgia, serif;
     font-style: italic;
     line-height:  28px;
@@ -86,8 +85,8 @@ a{
     border-right:1px solid #fff;
     border-bottom:1px solid #fff;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
 	.st-accordion .st-accordion-li > a{
-		font-size:36px;
+		font-size:24px;
 	}
 }
