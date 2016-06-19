@@ -61,16 +61,16 @@ a{
     opacity:1;
     right: 10px;
 }
-.st-accordion .st-accordion-li .st-open > a{
+.st-accordion .st-accordion-li.st-open > a {
     color: #1693eb;
 }
-.st-accordion .st-accordion-li .st-open > a span {
+.st-accordion .st-accordion-li.st-open > a span {
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
     transform:rotate(180deg);
     right:10px;
     opacity:1;
-    }
+}
 .st-content{
     padding-bottom: 30px;
 }
