@@ -8,6 +8,7 @@ body {
 .link {
   font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   position: relative;
+  color: #007fb0;
   text-decoration: none; }
   .link:before {
     content: "";
@@ -197,7 +198,6 @@ a {
   line-height: 28px; }
 
 .st-content img {
-  width: 125px;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff; }
 

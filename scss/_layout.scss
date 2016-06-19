@@ -7,6 +7,7 @@ body {
 .link {
 	font-family: $font-stack-body;
   position: relative;
+  color: #007fb0;
   text-decoration: none;
   &:before { 
     content: "";
