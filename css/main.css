@@ -47,6 +47,9 @@ ol > li.header {
   font-weight: 700;
   font-size: 1.3em; }
 
+.text-muted {
+  font-size: .875em; }
+
 .transition {
   position: absolute;
   top: 50px;
