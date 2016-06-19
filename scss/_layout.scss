@@ -1,11 +1,11 @@
 body {
-    font-family: $font-stack;
+    font-family: $font-stack-body;
     padding-top: 70px;
     font-size: 16px;
 }
 
 .link {
-	font-family: $font-stack;
+	font-family: $font-stack-body;
   position: relative;
   text-decoration: none;
   &:before { 
@@ -35,5 +35,10 @@ body {
 }
 
 p { 
-	font-family: $font-stack;
+	font-family: $font-stack-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-stack-header;
+  font-weight: 700;
 }

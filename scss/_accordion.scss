@@ -25,7 +25,7 @@ a{
     border-top:none;
 }
 .st-accordion .st-accordion-li > a{
-    font-family: 'Josefin Slab', Georgia, serif;
+    font-family: $font-stack-header;
     text-shadow: 1px 1px 1px #fff;
     font-size: 46px;
     display: block;

@@ -34,6 +34,10 @@ body {
 p {
   font-family: "PT Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Slab", "Rockwell", "Courier New", Georgia, serif;
+  font-weight: 700; }
+
 .transition {
   position: absolute;
   top: 50px;
@@ -137,7 +141,7 @@ a {
   border-top: none; }
 
 .st-accordion .st-accordion-li > a {
-  font-family: 'Josefin Slab', Georgia, serif;
+  font-family: "Josefin Slab", "Rockwell", "Courier New", Georgia, serif;
   text-shadow: 1px 1px 1px #fff;
   font-size: 46px;
   display: block;
