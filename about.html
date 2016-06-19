@@ -89,27 +89,35 @@
             <div class="st-content">
               <p>We brought data on student achievement from the Oregon Department of Education together with afterschool survey data collected by OregonASK to examine this question.  Data collected by the Oregon Department of Education data is from the 2014-15 school year, while OregonASK’s data is from the 2013-2014 school year.</p>
           
-          <ul>
-            <li>Oregon Department of Education data comprises the results of students assessments in math, reading, and science during the 2014-15 school year. That year was a transition year for Oregon in its approach to students assessment.</li>
               <ul>
-                <li>Math and reading scores were derived from first use of the <a class="link" href="http://www.ode.state.or.us/search/page/?id=3298">Smarter Balanced</a> assessment.</li>
+                <li>Oregon Department of Education data comprises the results of students assessments in Math, English Language Arts, and Science during the 2014-15 school year. That year was a transition year for Oregon in its approach to students assessment.</li>
+                  <ul>
+                    <li>Math and reading scores were derived from first use of the <a class="link" href="http://www.ode.state.or.us/search/page/?id=3298">Smarter Balanced</a> assessment.</li>
+                    
+                    <li>Science scores were derived from the <a class="link" href="http://www.ode.state.or.us/search/page/?id=1302">Oregon Assessment of Knowledge and Skills</a> (OAKS) assessment. </li>
+                    
+                    <li>The project used “met or exceeded benchmark” as its primary unit of performance analysis, rather than the numeric or percentage scores themselves. </li>
+                  </ul>
                 
-                <li>Science scores were derived from the <a class="link" href="http://www.ode.state.or.us/search/page/?id=1302">Oregon Assessment of Knowledge and Skills</a> (OAKS) assessment. </li>
+                <li><a class="link" href="https://oregonask.org/">OregonASK</a> survey data was collected primarily via phone calls to programs together with site visits.OregonASK conducted their initial survey in 2011, and completed a comprehensive update in 2013-14. These surveys were the first, and remain the most extensive, effort to index afterschool programs in Oregon.</li>
+                  
+                  <ul>
+                    <li>Sites were asked about various aspects of their program including: structure, location, enrollment, capacity, timing, duration, meals, and sponsors/funding. Survey data was entered into a database, which remains the most comprehensive source of information about Oregon afterschool programs in the state. </li>
+                    
+                    <li>OregonASK’s database identifies approximately 800 afterschool programs across Oregon. Many of these programs have multiple sites within their community. </li>
+                  </ul>
                 
-                <li>The project used “met or exceeded benchmark” as its primary unit of performance analysis, rather than the numeric or percentage scores themselves. </li>
+                <li>In certain instances, we employed data used our sister Hack Oregon projects <a class="link" href="http://4040100.hackoregon.org/">Education Pathways</a> (or <a class="link" href="http://4040100.hackoregon.org/">4040100</a>) and the Oregon Hunger Equation. (link when live).</li>
               </ul>
-            
-            <li><a class="link" href="https://oregonask.org/">OregonASK</a> survey data was collected primarily via phone calls to programs together with site visits.OregonASK conducted their initial survey in 2011, and completed a comprehensive update in 2013-14. These surveys were the first, and remain the most extensive, effort to index afterschool programs in Oregon.</li>
-              
-              <ul>
-                <li>Sites were asked about various aspects of their program including: structure, location, enrollment, capacity, timing, duration, meals, and sponsors/funding. Survey data was entered into a database, which remains the most comprehensive source of information about Oregon afterschool programs in the state. </li>
-                
-                <li>OregonASK’s database identifies approximately 800 afterschool programs across Oregon. Many of these programs have multiple sites within their community. </li>
-              </ul>
-            
-            <li>In certain instances, we employed data used our sister Hack Oregon projects <a class="link" href="http://4040100.hackoregon.org/">Education Pathways</a> (or <a class="link" href="http://4040100.hackoregon.org/">4040100</a>) and the Oregon Hunger Equation. (link when live).</li>
-          </ul>
+              <h3>Our Approach</h3>
+              <p>In order to isolate the effect of afterschool programming on student performance, we modeled the effect of poverty on performance first — because we know that <a class="link" href="http://marylandpublicschools.org/adequacystudy/docs/ConcentratedPovertyLitReviewFinalDraft-071015.pdf">poverty does impact student performance.</a></p>
+              <p>We used free or reduced price lunch eligibility (FRLE) as an indicator of poverty and compared the percentage of students eligible in each of the schools in our data set (993) to the percentage of students in each school who met or exceeded math, reading, or science benchmarks on standardized tests.</p>
+              <p>This resulted in a “best fit” line that shows the relationship between poverty and performance.</p>
+              <p><img src="./img/about-page-best-fit.png" width="60%"></p>
+              <p>We then computed the difference between the actual percentage of students meeting or exceeding benchmarks in each Oregon school to the expected percentage based on our model. We attributed the difference (residual performance) to programming.</p>
+              <p>A full description of the methodology — including interim formulas and charts — is available <a href="https://github.com/hackoregon/education-data/tree/master/analysis">here</a>. </p>
             </div>
+
           </li>
           <li class="st-accordion-li">
             <a href="#">
@@ -117,7 +125,49 @@
               <span class="st-arrow">Open or Close</span>
             </a>
             <div class="st-content">
-              <p>The project engaged a core team of X, and dozens of volunteers, experts, and sponsors who made sure all of us were fed and caffeinated as needed. </p>
+              <p><strong>This project was built 100% by volunteers.</strong></p>
+              <p>All Hack Oregon Projects are open source, built entirely by volunteers from our local community. Programming to Progress Team members follow. </p>
+              <p><em>Meet the Team</em></p>
+              <p>The project engaged a core team of 20 and dozens of volunteers, experts, and sponsors who made sure all of us were fed and caffeinated as needed.</p>
+              <p>
+                <ul>
+                  <li>Maripat Hensel, </li>
+                  <li>Scott Lewis, Data Scientist</li>
+                  <li>Philip Schatz, Data Scientist</li>
+                  <li>Danny Cairns, Front End Developer</li>
+                  <li>Merritt Lawrenson, Front End Lead</li>
+                  <li>Anisri Mukherjee, Data Scientist</li>
+                  <li>Kyle Joecken, Data Science Lead</li>
+                  <li>Katie Lakey, User Experience</li>
+                  <li>Liz Tom, Front End</li>
+                  <li>Sandesh Adhikary, Data Scientist and Storyteller</li>
+                  <li>Kristin Wolff, Lead Storyteller</li>
+                  <li>Leslie Waara, Designer</li>
+                  <li>Danny Hendrix, Data Scientist </li>
+                  <li>Cat Nikolovski, Producer</li>
+                  <li>Justine Wang, Designer</li>
+                  <li>Christopher Lu — Storyteller</li>
+                  <li>Robert Raleigh - Front End Development</li>
+                  <li>Amy Staples, Facilitation/Data Scientist</li>
+                  <li>Dan Carr, Dev Ops</li>
+                  <li>Megan McKissack, Operations</li>
+                </ul>
+              </p>
+              <h3>Gratitude</h3>
+              <p>The Programming to Progress team would like to thank the following individuals for their time and expertise in making this project come to life:</p>
+              <p>
+                <ul>
+                  <li>Beth Unverzagt, Executive Director, <a class="link" href="https://oregonask.org/">Oregon ASK</a></li>
+                  <li>Tong Zhang, Executive Director, <a class="link" href="http://oregonmesa.org/">Oregon MESA</a></li>
+                  <li>Mark Lewis, STEM/CTE Policy Director, <a class="link" href="http://education.oregon.gov/mark-lewis/">Oregon Chief Education Office</a></li>
+                </ul>
+              </p>
+              <h3>Want to Help?</h3>
+              <p>If you live in the Oregon area, or would like to contribute remotely, you can work with us!</p>
+
+              <p>Although each of our projects require a slightly different blend of talents and resources, our teams are always interdisciplinary and always have roles available for people at all levels of experience. We place our team members by balancing the skills they want to contribute with the skills they want to learn -- and by operating outside of normal bureaucratic, client-based, or venture funded restrictions, we’re free to move fast and innovate faster. </p>
+
+              <p>It’s not always easy, but we think it’s worth it. Find out more about us at <a class="link" href="http://www.hackoregon.org/">hackoregon.org</a>.</p>
             </div>
           </li>
         </ul>
@@ -156,7 +206,7 @@
     <script>
       $(document).ready(function(){
         $('.js-about-the-project').click();
-      }));
+      });
     </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
