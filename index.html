@@ -2288,7 +2288,7 @@
     				<p>On the charts below, you can see the pathway to achieving a bachelor's degree on the right-hand side. As more students meet benchmarks, the pathway grows-- meaning that more students are receiving bachelor’s degrees. Click on a chart to see it bigger.</p>
     				<div class="container">
     				    <div class="row">
-    				        <div class="col-sm-4">
+    				        <div class="col-sm-4 hidden-sm-down">
                                 <figure class="figure">
                                     <a data-toggle="modal" data-target="#graphModal" class="js-modal-activator">
                                         <img class="img-responsive" src="./img/graduation-did-not-meet.png" alt="graph of graduation raes that did not meet expectations"/>
@@ -2296,18 +2296,32 @@
                                     <figcaption class="figure-caption">Of the 15,708 high schoolers that do not meet benchmarks, just 810 (5%) go on to earn a bachelor’s degree. (note under the graph)</figcaption>
                                 </figure>
     				        </div>
-    				        <div class="col-sm-4">
+    				        <div class="col-sm-4 hidden-sm-down">
     				            <a data-toggle="modal" data-target="#graphModal" class="js-modal-activator">
                                     <img class="img-responsive" src="./img/graduation-met-expectations.png" alt="graph of graduation rates that met expecations"/>
                                 </a>
     				            <p>Of the 6,297 high schoolers that meet benchmarks, 2,194 (35%) go on to earn a bachelor’s degree. (note under the graph)</p>
     				        </div>
-    				        <div class="col-sm-4">
-    				            <a data-toggle="modal" data-target="#graphModal" class="js-modal-activator">
-                                    <img class="img-responsive" src="./img/graduation-exceeded.png"  alt="graph of graduation rates that exceeded expectations"/>
-                                </a>
+    				        <div class="col-xs-12 hidden-sm-up">
+                                <img class="img-responsive" src="./img/graduation-exceeded.png"  alt="graph of graduation rates that exceeded expectations"/>
     				            <p>Of the 3,070  high schoolers that do exceed benchmarks, 1,922 (63%) go on to earn a bachelor’s degree. (note under the graph)</p>
     				        </div>
+                            <div class="col-xs-12 hidden-sm-up">
+                                <figure class="figure">
+                                    <img class="img-responsive" src="./img/graduation-did-not-meet.png" alt="graph of graduation raes that did not meet expectations"/>
+                                    <figcaption class="figure-caption">Of the 15,708 high schoolers that do not meet benchmarks, just 810 (5%) go on to earn a bachelor’s degree. (note under the graph)</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-xs-12 hidden-sm-up">
+                                <img class="img-responsive" src="./img/graduation-met-expectations.png" alt="graph of graduation rates that met expecations"/>
+                                <p>Of the 6,297 high schoolers that meet benchmarks, 2,194 (35%) go on to earn a bachelor’s degree. (note under the graph)</p>
+                            </div>
+                            <div class="col-sm-4 hidden-sm-down">
+                                <a data-toggle="modal" data-target="#graphModal" class="js-modal-activator">
+                                    <img class="img-responsive" src="./img/graduation-exceeded.png"  alt="graph of graduation rates that exceeded expectations"/>
+                                </a>
+                                <p>Of the 3,070  high schoolers that do exceed benchmarks, 1,922 (63%) go on to earn a bachelor’s degree. (note under the graph)</p>
+                            </div>
     				    </div>
     				</div>
     				<p>Although student performance across these projects is not directly comparable &mdash; the 40-40-100 student cohort tested a decade ago using different instruments &mdash; the data does allow us to conclude that higher levels of afterschool programming boost student test scores, and benchmarks-level scores increase the likelihood of students both attending and graduating from college.</p>
@@ -2442,15 +2456,15 @@
     </div>
   </footer>
 
-<!-- Graph Modal -->
-<div class="modal fade" id="graphModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body js-modal-body"> 
+    <!-- Graph Modal -->
+    <div class="modal fade" id="graphModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body js-modal-body"> 
+                </div>
             </div>
         </div>
     </div>
-</div>
   
   <script src="js/vendor/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/vendor/jquery.accordion.js"></script>

@@ -53,3 +53,15 @@ ol > li.header {
   font-weight: 700;
   font-size: 1.3em;
 }
+
+.hidden-sm-down {
+  @media screen and (max-width: 764px){
+    display: none;
+  }
+}
+
+.hidden-sm-up {
+  @media screen and (min-width: 764px){
+    display: none;
+  }
+}
