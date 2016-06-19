@@ -47,8 +47,18 @@ ol > li.header {
   font-weight: 700;
   font-size: 1.3em; }
 
+<<<<<<< HEAD
 .text-muted {
   font-size: .875em; }
+=======
+@media screen and (max-width: 764px) {
+  .hidden-sm-down {
+    display: none; } }
+
+@media screen and (min-width: 764px) {
+  .hidden-sm-up {
+    display: none; } }
+>>>>>>> 8ed01e8437c768568f6c5b19ffccdbe900ebb9c1
 
 .transition {
   position: absolute;

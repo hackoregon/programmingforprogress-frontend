@@ -56,4 +56,15 @@ ol > li.header {
 
 .text-muted {
   font-size: .875em;
+
+.hidden-sm-down {
+  @media screen and (max-width: 764px){
+    display: none;
+  }
+}
+
+.hidden-sm-up {
+  @media screen and (min-width: 764px){
+    display: none;
+  }
 }
