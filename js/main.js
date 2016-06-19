@@ -18,3 +18,12 @@
 $(function() {
 	$('#st-accordion').accordion();
 });
+
+
+// Graph image modals
+// if( 768px );
+$('.js-modal-activator').on('click', function(){
+  $('.js-modal-body').html('');
+  var currentGraph = $(this).find('img').attr('src');
+  $('.js-modal-body').append('<img src="' + currentGraph + ' " width="100%">');
+});
