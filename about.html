@@ -82,7 +82,7 @@
             </div>
           </li>
           <li class="st-accordion-li">
-            <a href="#">
+            <a href="#" class="js-about-the-data">
               About The Data
               <span class="st-arrow">Open or Close</span>
             </a>
@@ -115,7 +115,7 @@
               <p>This resulted in a &ldquo;best fit&rdquo; line that shows the relationship between poverty and performance.</p>
               <p><img class="img-responsive" src="./img/about-page-best-fit.png" alt="graph of relationship between poverty and performance" width="60%"></p>
               <p>We then computed the difference between the actual percentage of students meeting or exceeding benchmarks in each Oregon school to the expected percentage based on our model. We attributed the difference (residual performance) to programming.</p>
-              <p>A full description of the methodology &mdash; including interim formulas and charts &mdash; is available <a href="https://github.com/hackoregon/education-data/tree/master/analysis">here</a>. </p>
+              <p>A full description of the methodology &mdash; including interim formulas and charts &mdash; is available <a class="link" href="https://github.com/hackoregon/education-data/tree/master/analysis">here</a>. </p>
             </div>
 
           </li>
@@ -205,7 +205,12 @@
     <script src="js/main.js"></script>
     <script>
       $(document).ready(function(){
-        $('.js-about-the-project').click();
+        var url = window.location.href;
+        if(url.indexOf('section') > 0){
+          $('.js-about-the-data').click();
+        } else {
+          $('.js-about-the-project').click();  
+        }
       });
     </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

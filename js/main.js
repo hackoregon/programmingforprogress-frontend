@@ -23,6 +23,22 @@ $(function() {
 // Graph image modals
 $('.js-modal-activator').on('click', function(){
   $('.js-modal-body').html('');
+  $('.js-modal-caption').text('');
   var currentGraph = $(this).find('img').attr('src');
+  var text = $(this).next('.js-caption').text();
   $('.js-modal-body').append('<img src="' + currentGraph + ' " width="100%">');
+  $('.js-modal-caption').text(text);
 });  
+
+$('.js-primer').on('click', function(){
+  $('.js-primer-section').click();
+});
+$('.js-reading').on('click', function(){
+  $('.js-reading-section').click();
+});
+$('.js-math').on('click', function(){
+  $('.js-math-section').click();
+});
+$('.js-science').on('click', function(){
+  $('.js-science-section').click();
+});
