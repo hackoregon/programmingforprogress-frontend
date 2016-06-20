@@ -44,6 +44,9 @@ $('.js-math').on('click', function(){
 $('.js-science').on('click', function(){
   $('.js-science-section').click();
 });
+$('.js-hunger').on('click', function(){
+  $('.js-hunger-section').click();
+});
 
 //$(function() {
 $('a[href*="#"]:not([href="#"])').click(function(e) {
