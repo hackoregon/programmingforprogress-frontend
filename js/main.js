@@ -61,3 +61,8 @@ $('a[href*="#"]:not([href="#"])').click(function(e) {
     }
   }
 });
+
+
+// for demo
+
+$("#bubble-meals").hide();
