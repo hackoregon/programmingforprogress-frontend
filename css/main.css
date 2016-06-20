@@ -47,10 +47,9 @@ ol > li.header {
   font-weight: 700;
   font-size: 1.3em; }
 
-<<<<<<< HEAD
 .text-muted {
   font-size: .875em; }
-=======
+
 @media screen and (max-width: 764px) {
   .hidden-sm-down {
     display: none; } }
@@ -58,7 +57,6 @@ ol > li.header {
 @media screen and (min-width: 764px) {
   .hidden-sm-up {
     display: none; } }
->>>>>>> 8ed01e8437c768568f6c5b19ffccdbe900ebb9c1
 
 .transition {
   position: absolute;
@@ -66,7 +64,7 @@ ol > li.header {
   bottom: 0;
   right: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   background: black;
   color: white;
   transform: translateX(-100%);
@@ -108,9 +106,6 @@ ol > li.header {
   100% {
     transform: translateY(4px); } }
 
-.student {
-  cursor: pointer; }
-
 .student-1 {
   transform: translateY(4px);
   animation: popup 4s 0.3s ease infinite; }
@@ -122,6 +117,10 @@ ol > li.header {
 .student-3 {
   transform: translateY(5px);
   animation: popup 1.5s ease infinite; }
+
+.student-4 {
+  transform: translateY(5px);
+  animation: popup 2s ease infinite; }
 
 .footer {
   border-color: #101010;
@@ -228,3 +227,6 @@ a {
 
 .modal-dialog {
   width: 80%; }
+
+.modal-caption {
+  text-align: center; }

@@ -9,9 +9,9 @@
     transform: translateY(4px);
   }
 }
-.student {
-  cursor: pointer;
-}
+// .student {
+//   cursor: pointer;
+// }
 
 .student-1 {
   transform: translateY(4px);
@@ -26,4 +26,9 @@
 .student-3 {
   transform: translateY(5px);
   animation: popup 1.5s ease infinite;
+}
+
+.student-4 {
+  transform: translateY(5px);
+  animation: popup 2s ease infinite;
 }
